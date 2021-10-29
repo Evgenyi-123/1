@@ -44,6 +44,13 @@ html {
   color: #fff;
 }
 
-.header__
+.header__item:not(:last-child) {
+  margin-right: 40px;
+}
 
 /* #endregion */
+
+/* #region HERO*/
+
+
+/* #enregion */
