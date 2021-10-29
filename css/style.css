@@ -1,16 +1,9 @@
-
 html {
   box-sizing: border-box;
-
 }
-
-.header {
-  background-color: #171717;
-}
-
+/* #region Globe*/
 .link-reset {
   text-decoration: none;
-  color: inherit;
 }
 
 .list-reset {
@@ -18,3 +11,28 @@ html {
   padding: 0;
   margin: 0;
 }
+
+.flex {
+  display: flex;
+}
+/* #endregion */
+
+/* #region HEADER*/
+.header {
+  background-color: #171717;
+}
+
+.header__container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+}
+
+/* #endregion */
