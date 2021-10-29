@@ -50,6 +50,10 @@ html {
 
 /* #endregion */
 
+.hero__container {
+  max-width: 1300px;
+  
+}
 /* #region */
 
 
