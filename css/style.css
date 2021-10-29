@@ -54,7 +54,7 @@ body {
 
 .btn-reset {
   border: none;
-  background-color: none;
+  background-color: transparent;
   cursor: pointer;
 }
 /* #endregion */
@@ -97,19 +97,41 @@ body {
 }
 
 .hero__name {
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
-  line-height: 62px;
+  line-height: 65px;
   color: #fff;
 }
 
 .hero__skill {
+  margin-bottom: 35px; 
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
   color: #828282;
+}
+
+.btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.hero__btn1 {
+  margin-right: 10px;
+  padding: 12px 27px;
+  border: 1px solid transparent;
+  background-color:#27AE60;
+}
+
+.hero__btn2 {
+  padding: 12px 34px;
+  border: 1px solid #f2f2f2;
 }
 
 .hero__avatar {
