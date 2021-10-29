@@ -1,0 +1,16 @@
+/* about */
+
+.about {
+    background-color: #171717;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  .about-title,
+  .about-descr {
+    width: 745px;
+    text-align: center;
+    color: #fff;
+  }
+  
