@@ -1,16 +1,53 @@
 /* about */
-
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
 .about {
-    background-color: #171717;
-  }
-  
-  .about-content {
-    text-align: center;
-  }
-  .about-title,
-  .about-descr {
-    width: 745px;
-    text-align: center;
-    color: #fff;
-  }
-  
+  background-color: #171717;
+}
+
+.about-content {
+  margin: 0 auto;
+  width: 745px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-title {
+  color: #fff;
+}
+
+.about-descr {
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+/* about-icons */
+
+.ava {
+  margin: 0 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.about-icons {
+  padding: 0 50px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-icons > div:not(:last-child) {
+  margin-right: 200px;
+}
+
+.about h3 {
+  color: #fff;
+}
+
+.about p {
+  color: #fff;
+}
