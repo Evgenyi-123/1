@@ -1,5 +1,12 @@
 html {
   box-sizing: border-box;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 /* #region Globe*/
 .link-reset {
@@ -17,7 +24,7 @@ html {
 }
 /* #endregion */
 
-/* #region HEADER*/
+/* #region HEADER */
 .header {
   background-color: #171717;
 }
@@ -25,6 +32,8 @@ html {
 .header__container {
   max-width: 1300px;
   margin: 0 auto;
+  padding: 28px 0 28px;
+  justify-content: space-between;
 }
 
 .header__link {
@@ -35,21 +44,10 @@ html {
   color: #fff;
 }
 
+
 /* #endregion */
 
-/* about */
 
-.about {
-  background-color: #171717;
-}
 
-.about-content {
-  text-align: center;
-}
-.about-title,
-.about-descr {
-  width: 745px;
-  text-align: center;
-  color: #fff;
-}
+
 
