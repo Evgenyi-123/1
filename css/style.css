@@ -1,5 +1,12 @@
 html {
   box-sizing: border-box;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 /* #region Globe*/
 .link-reset {
@@ -25,6 +32,8 @@ html {
 .header__container {
   max-width: 1300px;
   margin: 0 auto;
+  padding: 28px 0 28px;
+  justify-content: space-between;
 }
 
 .header__link {
@@ -34,5 +43,7 @@ html {
   line-height: 23px;
   color: #fff;
 }
+
+.header__
 
 /* #endregion */
