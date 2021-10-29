@@ -1,8 +1,38 @@
 html {
   box-sizing: border-box;
-
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +51,12 @@ html {
 
 .flex {
   display: flex;
+}
+
+.btn-reset {
+  border: none;
+  background-color: none;
+  cursor: pointer;
 }
 /* #endregion */
 
@@ -50,11 +86,21 @@ html {
 
 /* #endregion */
 
+
+/* #region HERO*/
+
 .hero__container {
   max-width: 1300px;
-  
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
-/* #region */
 
-
+.hero__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 62px;
+  color: #fff;
+}
 /* #enregion */
