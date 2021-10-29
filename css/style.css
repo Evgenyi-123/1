@@ -43,3 +43,14 @@ html {
   line-height: 23px;
   color: #fff;
 }
+
+.header__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* #endregion */
+
+/* #region */
+
+
+/* #enregion */
